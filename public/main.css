@@ -1,0 +1,44 @@
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/path-to-font/Inter-Regular.woff2') format('woff2'),
+         url('/path-to-font/Inter-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+html {
+    background-color: #161616;
+    font-family: 'Inter', sans-serif;
+    margin: 50px;
+}
+
+.container {
+    max-width: 400px;
+    min-width: 400px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    color: white;
+}
+
+
+
+.header {
+    display: inline-flex;
+    font-size: 1.25rem;
+    margin-bottom: 4rem;
+    gap: 1rem;
+}
+.header a, .writing a {
+    color: white;
+    text-decoration: none;
+}
+
+.header a:hover, .writing a:hover {
+    text-decoration: underline;
+}

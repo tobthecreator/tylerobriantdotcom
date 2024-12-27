@@ -1,0 +1,14 @@
+= Welcome to My Blog
+Tyler O'Briant
+
+This is an example post written in AsciiDoc.
+
+== Benefits of AsciiDoc
+
+- Richer syntax compared to Markdown
+- Can include tables, callouts, and more
+- Great for technical documentation
+
+== Conclusion
+
+AsciiDoc is a powerful tool for creating structured documents.
